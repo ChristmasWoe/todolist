@@ -2,9 +2,16 @@ import React from 'react';
 import './Name-Input.css';
 
 const NameInput = () => {
-    return(
-            <input type="text" placeholder="Ваша заметка"
+    return (
+        <>
+            <label id="ToDoName" for="ToDoName">Название</label>
+            <input
+                name="ToDoName"
+                className="NameInput"
+                type="text"
+                placeholder="Ваша заметка"
             />
+        </>
     )
 }
 

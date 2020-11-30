@@ -1,3 +1,11 @@
-div {
-    width: 12%;
+.github-picker > div {
+  display: none;
+}
+
+#ColorPicker {
+  margin-top: 20px;
+}
+
+.github-picker {
+  margin-top: 3px;
 }
